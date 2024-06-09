@@ -50,8 +50,4 @@ elseif inskywars then
 elseif inbladeball then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Near-B4/Raven-B4-for-Roblox/main/Games/Skywars.lua"))()
 end
-local Codex = game:WaitForChild("CoreGui"):FindFirstChild("Codex")
-if Codex then
-    Codex:Destroy()
-end
 return lib
