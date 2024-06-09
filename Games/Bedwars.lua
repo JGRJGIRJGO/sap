@@ -13,7 +13,6 @@ Category: Games (Bedwars)
 ]]
 
 repeat task.wait() until game:IsLoaded()
-loadstring(game:HttpGet("https://gist.githubusercontent.com/NearB4/503be5f6f3c0208116f7750094bd85c4/raw/1feb0bb353ecd930999d0d259dd4656c0cde8a3e/Raven%2520B4"))()
 local UIS = game:GetService("UserInputService")
 local PCplaying = false
 if UIS.KeyboardEnabled and UIS.MouseEnabled and not UIS.TouchEnabled then
