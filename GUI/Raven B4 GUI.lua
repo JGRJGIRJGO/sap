@@ -1351,7 +1351,7 @@ AutoToxic = Client:CreateToggle({
                 local Randomized = math.random(0, 6)
     
                 if Randomized == 0 then
-                    KillMessage = "Sub to just_a_kamo_twin ;) | " .. ExtraMessage
+                    KillMessage = "Sub to NearB4 ;) | " .. ExtraMessage
                 end
                 if Randomized == 1 then
                     KillMessage = "Me when no Y Check: | " .. ExtraMessage
@@ -1367,6 +1367,9 @@ AutoToxic = Client:CreateToggle({
                 end
                 if Randomized == 5 then
                     KillMessage = "How to bypass Anticheat 101 | " .. ExtraMessage
+                end
+                if Randomized == 6 then
+                    KillMessage = "6 Months, still can't fix Raven? | " .. ExtraMessage
                 end
                 if inbedwars then
                     RepStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(KillMessage, "All")
